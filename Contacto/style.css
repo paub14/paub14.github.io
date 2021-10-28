@@ -1,0 +1,52 @@
+
+.logo img, .logo-secondary img {
+    max-width: 200%;
+}
+html {
+    position: relative;
+}
+
+html {
+    background-image: url(3b0fde0….css);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+html, body {
+    min-height: 100%;
+}
+html {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+* {
+    box-sizing: border-box;
+}
+
+
+
+html {
+    display: block;
+}
+html:before {
+    content: '';
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+html:before {
+    background-color: #000;
+    display: none;
+    opacity: calc(30 * 0.01);
+}
+
+.page-title {
+
+}

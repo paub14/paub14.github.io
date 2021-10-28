@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en-US" class="wf-gmsj-n7-active wf-vcsm-n4-active wf-vcsm-n6-active wf-vcsm-n7-active wf-active"><head>
+    <meta charset="UTF-8"><script type="text/javascript" src="https://bam-cell.nr-data.net/1/e7fb1b89a0?a=750147145&amp;v=1210.e2a3f80&amp;to=ZwZaYkJVDERXUxULCV5Me0NDQA1aGWsmJzJtQxdtS0QDQ14KT0gbbQ%3D%3D&amp;rst=5092&amp;ck=1&amp;ref=https://pvbernal10f84.myportfolio.com/&amp;ap=14&amp;be=1703&amp;fe=5004&amp;dc=3509&amp;perf=%7B%22timing%22:%7B%22of%22:1632332686112,%22n%22:0,%22f%22:679,%22dn%22:724,%22dne%22:724,%22c%22:724,%22s%22:726,%22ce%22:759,%22rq%22:760,%22rp%22:1522,%22rpe%22:1524,%22dl%22:1543,%22di%22:3504,%22ds%22:3508,%22de%22:3581,%22dc%22:5004,%22l%22:5004,%22le%22:5009%7D,%22navigation%22:%7B%7D%7D&amp;fp=3512&amp;fcp=3512&amp;at=S0FNFApPHxsUUUNYHU0e&amp;jsonp=NREUM.setToken"></script><script src="https://js-agent.newrelic.com/nr-1210.min.js"></script><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"e7fb1b89a0",applicationID:"750147145"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n){return function(){return o(t,[u.now()].concat(f(arguments)),e?null:this,n),e?void 0:this}}var o=t("handle"),a=t(8),f=t(9),c=t("ee").get("tracer"),u=t("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(t,e){s[e]=i(p+e,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),e.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(l+"tracer",[u.now(),t,n],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],n),t}finally{c.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(l+e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){function r(){return f.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,f=t(10);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],4:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],5:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?d("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&d("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||d("cls",[t])})}function a(t){if(t instanceof m&&!g){var e=Math.round(t.timeStamp),n={type:t.type};e<=p.now()?n.fid=p.now()-e:e>p.offset&&e<=Date.now()?(e-=p.offset,n.fid=p.now()-e):e=p.now(),g=!0,d("timing",["fi",e,n])}}function f(t){"hidden"===t&&d("pageHide",[p.now()])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var c,u,s,d=t("handle"),p=t("loader"),l=t(7),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){c=new PerformanceObserver(r);try{c.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,h=["click","keydown","mousedown","pointerdown","touchstart"];h.forEach(function(t){document.addEventListener(t,a,!1)})}l(f)}},{}],6:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}e.exports={agent:i,version:o,match:r}},{}],7:[function(t,e,n){function r(t){function e(){t(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,e,!1)}e.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],8:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],9:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],10:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,c,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var f=e(i),c=v(n),u=c.length,s=0;s<u;s++)c[s].apply(f,r);var p=d[w[n]];return p&&p.push([b,n,r,f]),f}}function o(t,e){y[t]=v(t).concat(e)}function m(t,e){var n=y[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function v(t){return y[t]||[]}function g(t){return p[t]=p[t]||i(n)}function h(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var y={},w={},b={on:o,addEventListener:o,removeEventListener:m,emit:n,get:g,listeners:v,context:e,buffer:h,abort:f,aborted:!1};return b}function o(t){return u(t,c,a)}function a(){return new r}function f(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var c="nr@context",u=t("gos"),s=t(8),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!R++){var t=M.info=NREUM.info,e=v.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();c(E,function(e,n){t[e]||(t[e]=n)});var n=a();f("mark",["onload",n+M.offset],null,"api"),f("timing",["load",n]);var r=v.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=l+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===v.readyState&&o()}function o(){f("mark",["domContent",a()+M.offset],null,"api")}var a=t(3),f=t("handle"),c=t(8),u=t("ee"),s=t(6),d=t(4),p=t(2),l=p.getConfiguration("ssl")===!1?"http":"https",m=window,v=m.document,g="addEventListener",h="attachEvent",y=m.XMLHttpRequest,w=y&&y.prototype,b=!d(m.location);NREUM.o={ST:setTimeout,SI:m.setImmediate,CT:clearTimeout,XHR:y,REQ:m.Request,EV:m.Event,PR:m.Promise,MO:m.MutationObserver};var x=""+location,E={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1210.min.js"},O=y&&w&&w[g]&&!/CriOS/.test(navigator.userAgent),M=e.exports={offset:a.getLastTimestamp(),now:a,origin:x,features:{},xhrWrappable:O,userAgent:s,disabled:b};if(!b){t(1),t(5),v[g]?(v[g]("DOMContentLoaded",o,!1),m[g]("load",r,!1)):(v[h]("onreadystatechange",i),m[h]("onload",r)),f("mark",["firstbyte",a.getLastTimestamp()],null,"api");var R=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,c,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,c],s],t)}f(n+"start",[o,a,c],s,u);try{return p=e.apply(a,o)}catch(m){throw f(n+"err",[o,a,m],s,u),m}finally{f(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var f,c,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)c=e[u],f=t[c],a(f)||(t[c]=n(f,s?c+r:r,i,c,o))}function f(n,r,o,a){if(!m||e){var f=m;m=!0;try{t.emit(n,r,o,e,a)}catch(c){i([c,n,r,o],t)}m=f}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function f(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function c(t,e,n){var r=t[e];t[e]=f(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(9),p="nr@original",l=Object.prototype.hasOwnProperty,m=!1;e.exports=r,e.exports.wrapFunction=f,e.exports.wrapInPlace=c,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+        <meta property="og:title" content="PAULA VALENTINA BERNAL GONZALEZ">
+        <meta property="og:image" content="https://pro2-bar-s3-cdn-cf6.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/a5705e41-3fc6-42bf-bda5-a6218b7cca8f_rw_600.jpg?h=794557ff1c095c2bb10bb0faa18b2231">
+        <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAQMAAAAlPW0iAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAADUExURUxpcU3H2DoAAAABdFJOUwBA5thmAAAADElEQVQI12NgIA0AAAAwAAHHqoWOAAAAAElFTkSuQmCC">
+        <link rel="stylesheet" href="C:\DOCUMENTOS PAULA\TALLER DE MULTIMEDIA 2\Portafolio web\Portafolio\ilustración\styles.css" type="text/css">
+        <link rel="stylesheet" href="https://pro2-bar-s3-cdn-cf1.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/94b1cf77eb8d147c63f55a98a4e519181632332677.css?h=a4e6511d116d7df5e63295563fb2468f" type="text/css">
+      <link rel="canonical" href="https://pvbernal10f84.myportfolio.com/illustraitor">
+        <title>PAULA VALENTINA BERNAL GONZALEZ</title>
+      <script type="text/javascript" src="//use.typekit.net/ik/ZkZu7hhyTPLU1uPuAI1siUY4Mtc93UhIkaRpFWaDrdGfeCXgfHYEBsJzwD9oFDIDWDiKZRsRZRMhZR9tFAIhFcj3529h5QbuZcF8FAIkZQwojR48w2SDjAj-mkG0dW83da4XZcNC-Av0jhNlOfG0SY4zwKuh-AmaOcuoSeNkieZzde8zOcFzdPUlpWgzS1scdhUTdkoRdhXCSY4zwKuh-AmaOcuoSeNkieZzde8zOcFzdPJIZhuD-KJIicFDdPG4fFIVIMMjgkMfH6qJn3IbMs6IJMJ7fbKlMsMgeMj6MKG4fJCgIMIjgkMfqMedtnLbgb.js?cb=" async="" onload="
+      try {
+        window.Typekit.load();
+      } catch (e) {
+        console.warn('Typekit not loaded.');
+      }
+      "></script><style type="text/css">@font-face{font-family:gmsj;src:url(https://use.typekit.net/af/e0617b/000000000000000077359943/30/l?subset_id=2&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/e0617b/000000000000000077359943/30/d?subset_id=2&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/e0617b/000000000000000077359943/30/a?subset_id=2&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;font-display:auto;}@font-face{font-family:vcsm;src:url(https://use.typekit.net/af/efe4a5/00000000000000007735e609/30/l?subset_id=2&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/efe4a5/00000000000000007735e609/30/d?subset_id=2&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/efe4a5/00000000000000007735e609/30/a?subset_id=2&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;font-display:auto;}@font-face{font-family:vcsm;src:url(https://use.typekit.net/af/78aca8/00000000000000007735e60d/30/l?subset_id=2&fvd=n6&v=3) format("woff2"),url(https://use.typekit.net/af/78aca8/00000000000000007735e60d/30/d?subset_id=2&fvd=n6&v=3) format("woff"),url(https://use.typekit.net/af/78aca8/00000000000000007735e60d/30/a?subset_id=2&fvd=n6&v=3) format("opentype");font-weight:600;font-style:normal;font-display:auto;}@font-face{font-family:vcsm;src:url(https://use.typekit.net/af/2555e1/00000000000000007735e603/30/l?subset_id=2&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/2555e1/00000000000000007735e603/30/d?subset_id=2&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/2555e1/00000000000000007735e603/30/a?subset_id=2&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;font-display:auto;}</style>
+  <style type="text/css"></style></head>
+    <body class="link-transition">  <div class="page-background-video page-background-video-with-panel">
+    </div>
+    <div class="js-responsive-nav">
+      <div class="responsive-nav has-social">
+        <div class="close-responsive-click-area js-close-responsive-nav">
+          <div class="close-responsive-button"></div>
+        </div>
+            <div class="nav-container">
+              <nav data-hover-hint="nav">
+
+        <div class="page-title">
+          <a href="/illustraitor" class="active"> <br>  <br>ILLUSTRAITOR  </a>
+        </div>
+                  <div class="social pf-nav-social" data-hover-hint="navSocialIcons">
+                    <ul>
+                    </ul>
+                  </div>
+              </nav>
+            </div>
+      </div>
+    </div>
+    <div class="site-wrap cfix js-site-wrap">
+      <div class="site-container">
+        <div class="site-content e2e-site-content">
+          <header class="site-header">
+            <div class="logo-container">
+                <div class="logo-wrap" data-hover-hint="logo">
+                      <div class="logo e2e-site-logo-text logo-text  ">
+      <a href="C:\DOCUMENTOS PAULA\TALLER DE MULTIMEDIA 2\Portafolio web\Portafolio\index.html" class="preserve-whitespace">PAULA BERNAL</a>
+  
+  </div>
+                </div>
+    <div class="hamburger-click-area js-hamburger">
+      <div class="hamburger">
+        <i></i>
+        <i></i>
+        <i></i>
+      </div>
+    </div>
+        
+          </header>
+          <main>
+    <div class="page-container" data-context="page.page.container" data-hover-hint="pageContainer">
+      <section class="page standard-modules">
+          <header class="page-header content" data-context="pages" data-identity="id:p614b525930b7f494ddc1db7d8905317335640ac034ba64febf2e3" data-hover-hint="pageHeader" data-hover-hint-id="p614b525930b7f494ddc1db7d8905317335640ac034ba64febf2e3">
+              
+            <h1 class="title"> ILLUSTRACIONES </h1>
+              <p class="description"></p>
+          </header>
+        <div class="page-content js-page-content" data-context="pages" data-identity="id:p614b525930b7f494ddc1db7d8905317335640ac034ba64febf2e3">
+          <div id="project-canvas" class="js-project-modules modules content">
+            <div id="project-modules">
+
+        
+               
+
+                 <div class="container">
+  
+                    <ul class="slider">
+                     
+                      <li id="slide1">
+                        <img src="C:\DOCUMENTOS PAULA\TALLER DE MULTIMEDIA 2\Portafolio web\Portafolio\ilustración\d5.png"/>
+                      </li>
+                      <li id="slide2">
+                        <img src="C:\DOCUMENTOS PAULA\TALLER DE MULTIMEDIA 2\Portafolio web\Portafolio\ilustración\d6.png"/>
+                      </li>
+                      <li id="slide3">
+                        <img src="C:\DOCUMENTOS PAULA\TALLER DE MULTIMEDIA 2\Portafolio web\Portafolio\ilustración\d7.jpg"/>
+                      </li>
+                      <li id="slide4">
+                        <img src="C:\DOCUMENTOS PAULA\TALLER DE MULTIMEDIA 2\Portafolio web\Portafolio\ilustración\d9.jpeg"/>
+                      </li>
+                      <li id="slide5">
+                        <img src="C:\DOCUMENTOS PAULA\TALLER DE MULTIMEDIA 2\Portafolio web\Portafolio\ilustración\d10.jpg"/>
+                      </li>
+                      <li id="slide6">
+                        <img src="C:\DOCUMENTOS PAULA\TALLER DE MULTIMEDIA 2\Portafolio web\Portafolio\ilustración\d12.png"/>
+                      </li>
+                                      
+                      <li id="slide7">
+                        <img src="C:\DOCUMENTOS PAULA\TALLER DE MULTIMEDIA 2\Portafolio web\Portafolio\ilustración\d13.jpg"/>
+                      </li>
+                      <li id="slide8">
+                        <img src="C:\DOCUMENTOS PAULA\TALLER DE MULTIMEDIA 2\Portafolio web\Portafolio\ilustración\d14.jpg"/>
+                      </li>
+                      <li id="slide9">
+                        <img src="C:\DOCUMENTOS PAULA\TALLER DE MULTIMEDIA 2\Portafolio web\Portafolio\ilustración\d15.jpg"/>
+                      </li>
+                      <li id="slide10">
+                        <img src="C:\DOCUMENTOS PAULA\TALLER DE MULTIMEDIA 2\Portafolio web\Portafolio\ilustración\d1.jpg"/>
+                      </li>
+                      <li id="slide11">
+                        <img src="C:\DOCUMENTOS PAULA\TALLER DE MULTIMEDIA 2\Portafolio web\Portafolio\ilustración\d2.jpg"/>
+                      </li>
+                      <li id="slide12">
+                        <img src="C:\DOCUMENTOS PAULA\TALLER DE MULTIMEDIA 2\Portafolio web\Portafolio\ilustración\d3.jpg"/>
+                      </li>
+                      <li id="slide13">
+                        <img src="C:\DOCUMENTOS PAULA\TALLER DE MULTIMEDIA 2\Portafolio web\Portafolio\ilustración\d4.jpg"/>
+                      </li>
+                      <li id="slide14">
+                        <img src="C:\DOCUMENTOS PAULA\TALLER DE MULTIMEDIA 2\Portafolio web\Portafolio\ilustración\d11.png"/>
+                      </li>
+                      <li id="slide15">
+                        <img src="C:\DOCUMENTOS PAULA\TALLER DE MULTIMEDIA 2\Portafolio web\Portafolio\ilustración\d8.jpg"/>
+                      </li>
+                    </li>
+                </ul>
+                
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+
+                <ul class="menu">
+                  <li>
+                    <a href="#slide1">1</a>
+                  </li>
+                  <li>
+                    <a href="#slide2">2</a>
+                  </li>
+                   <li>
+                    <a href="#slide3">3</a>
+                  </li>
+                  <li>
+                    <a href="#slide4">4</a>
+                  </li>
+                  <li>
+                    <a href="#slide5">5</a>
+                  </li>
+                  <li>
+                    <a href="#slide6">6</a>
+                  </li>
+                  <li>
+                    <a href="#slide7">7</a>
+                  </li>
+                  <li>
+                    <a href="#slide8">8</a>
+                  </li> <li>
+                    <a href="#slide9">9</a>
+                  </li> <li>
+                    <a href="#slide10">10</a>
+                  </li> 
+                </li> <li>
+                  <a href="#slide11">11</a>
+                </li> 
+              </li> <li>
+                  <a href="#slide12">112</a>
+                </li> 
+              </li> <li>
+                <a href="#slide13">13</a>
+              </li> 
+            </li> <li>
+              <a href="#slide14">14</a>
+            </li> 
+          </li> <li>
+            <a href="#slide15">15</a>
+          </li> 
+              
+              </div>
+
+                            
+              <br>
+              <br>           
+              <br>           
+              <br>
+                                     
+                          
+                     
+                          
+                          
+                          <div class="project-module module media_collection project-module-media_collection" data-id="m614b52942dd1af6948a8ce5aad645742cbfd8929ae5faa3db19d7" style="padding-top: px;
+            padding-bottom: px;
+            ">
+              <div class="grid--main js-grid-main grid--ready" data-grid-max-images="
+              ">
+                <div class="grid__item-container js-grid-item-container lightbox-link hoverable" data-flex-grow="151.58671586716" style="width: 99.1144px; flex-grow: 99.1144;" data-width="158" data-height="271">
+                  <script type="text/html" class="js-lightbox-slide-content">
+                    <div class="grid__image-wrapper">
+                      <img src="https://pro2-bar-s3-cdn-cf6.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/0b36887e-cf74-422a-b510-7c5617cfd051_rw_600.jpg?h=d40d76ada68d0ddc33d064e41659ba64" srcset="https://pro2-bar-s3-cdn-cf6.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/0b36887e-cf74-422a-b510-7c5617cfd051_rw_600.jpg?h=d40d76ada68d0ddc33d064e41659ba64 158w,"  sizes="(max-width: 158px) 100vw, 158px">
+                    <div>
+                  </script>
+                  <img class="grid__item-image js-grid__item-image grid__item-image-lazy js-lazy image-loaded" src="https://pro2-bar-s3-cdn-cf6.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/0b36887e-cf74-422a-b510-7c5617cfd051_rw_600.jpg?h=d40d76ada68d0ddc33d064e41659ba64" sizes="114px" srcset="https://pro2-bar-s3-cdn-cf6.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/0b36887e-cf74-422a-b510-7c5617cfd051_rw_600.jpg?h=d40d76ada68d0ddc33d064e41659ba64 158w,">
+                  <span class="grid__item-filler" style="padding-bottom:171.51898734177%;"></span>
+                </div>
+                <div class="grid__item-container js-grid-item-container lightbox-link hoverable" data-flex-grow="151.58671586716" style="width: 99.1144px; flex-grow: 99.1144;" data-width="158" data-height="271">
+                  <script type="text/html" class="js-lightbox-slide-content">
+                    <div class="grid__image-wrapper">
+                      <img src="https://pro2-bar-s3-cdn-cf4.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/f7d47f11-6294-40ee-85af-526c5bc852ae_rw_600.jpg?h=c6a93876e652347b8387786c77e77395" srcset="https://pro2-bar-s3-cdn-cf4.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/f7d47f11-6294-40ee-85af-526c5bc852ae_rw_600.jpg?h=c6a93876e652347b8387786c77e77395 158w,"  sizes="(max-width: 158px) 100vw, 158px">
+                    <div>
+                  </script>
+                  <img class="grid__item-image js-grid__item-image grid__item-image-lazy js-lazy image-loaded" src="https://pro2-bar-s3-cdn-cf4.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/f7d47f11-6294-40ee-85af-526c5bc852ae_rw_600.jpg?h=c6a93876e652347b8387786c77e77395" sizes="113px" srcset="https://pro2-bar-s3-cdn-cf4.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/f7d47f11-6294-40ee-85af-526c5bc852ae_rw_600.jpg?h=c6a93876e652347b8387786c77e77395 158w,">
+                  <span class="grid__item-filler" style="padding-bottom:171.51898734177%;"></span>
+                </div>
+                <div class="grid__item-container js-grid-item-container lightbox-link hoverable" data-flex-grow="151.58671586716" style="width: 99.1144px; flex-grow: 99.1144;" data-width="158" data-height="271">
+                  <script type="text/html" class="js-lightbox-slide-content">
+                    <div class="grid__image-wrapper">
+                      <img src="https://pro2-bar-s3-cdn-cf1.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/205d26e3-4dec-4d1b-bac6-108ab001eff2_rw_600.jpg?h=f9c34c771daa7376d9e8624d1b62fce0" srcset="https://pro2-bar-s3-cdn-cf1.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/205d26e3-4dec-4d1b-bac6-108ab001eff2_rw_600.jpg?h=f9c34c771daa7376d9e8624d1b62fce0 158w,"  sizes="(max-width: 158px) 100vw, 158px">
+                    <div>
+                  </script>
+                  <img class="grid__item-image js-grid__item-image grid__item-image-lazy js-lazy image-loaded" src="https://pro2-bar-s3-cdn-cf1.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/205d26e3-4dec-4d1b-bac6-108ab001eff2_rw_600.jpg?h=f9c34c771daa7376d9e8624d1b62fce0" sizes="114px" srcset="https://pro2-bar-s3-cdn-cf1.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/205d26e3-4dec-4d1b-bac6-108ab001eff2_rw_600.jpg?h=f9c34c771daa7376d9e8624d1b62fce0 158w,">
+                  <span class="grid__item-filler" style="padding-bottom:171.51898734177%;"></span>
+                </div>
+                <div class="grid__item-container js-grid-item-container lightbox-link hoverable" data-flex-grow="151.58671586716" style="width: 99.1144px; flex-grow: 99.1144;" data-width="158" data-height="271">
+                  <script type="text/html" class="js-lightbox-slide-content">
+                    <div class="grid__image-wrapper">
+                      <img src="https://pro2-bar-s3-cdn-cf1.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/2de680c9-db82-4d40-bd29-adee0a31a4a9_rw_600.jpg?h=be2d28d0a3cfcd236fc11ccfccb5f62e" srcset="https://pro2-bar-s3-cdn-cf1.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/2de680c9-db82-4d40-bd29-adee0a31a4a9_rw_600.jpg?h=be2d28d0a3cfcd236fc11ccfccb5f62e 158w,"  sizes="(max-width: 158px) 100vw, 158px">
+                    <div>
+                  </script>
+                  <img class="grid__item-image js-grid__item-image grid__item-image-lazy js-lazy image-loaded" src="https://pro2-bar-s3-cdn-cf1.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/2de680c9-db82-4d40-bd29-adee0a31a4a9_rw_600.jpg?h=be2d28d0a3cfcd236fc11ccfccb5f62e" sizes="113px" srcset="https://pro2-bar-s3-cdn-cf1.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/2de680c9-db82-4d40-bd29-adee0a31a4a9_rw_600.jpg?h=be2d28d0a3cfcd236fc11ccfccb5f62e 158w,">
+                  <span class="grid__item-filler" style="padding-bottom:171.51898734177%;"></span>
+                </div>
+                <div class="grid__item-container js-grid-item-container lightbox-link hoverable" data-flex-grow="128.21917808219" style="width: 83.8356px; flex-grow: 83.8356;" data-width="1080" data-height="2190">
+                  <script type="text/html" class="js-lightbox-slide-content">
+                    <div class="grid__image-wrapper">
+                      <img src="https://pro2-bar-s3-cdn-cf5.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/6940671e-e618-47f3-935a-92d144e67031_rw_1200.png?h=3387386095e792ad8e4f316b8d0af646" srcset="https://pro2-bar-s3-cdn-cf5.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/6940671e-e618-47f3-935a-92d144e67031_rw_600.png?h=6b559da2f4a6c831c4f76a35d658a956 600w,https://pro2-bar-s3-cdn-cf5.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/6940671e-e618-47f3-935a-92d144e67031_rw_1200.png?h=3387386095e792ad8e4f316b8d0af646 1080w,"  sizes="(max-width: 1080px) 100vw, 1080px">
+                    <div>
+                  </script>
+                  <img class="grid__item-image js-grid__item-image grid__item-image-lazy js-lazy image-loaded" src="https://pro2-bar-s3-cdn-cf5.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/6940671e-e618-47f3-935a-92d144e67031_rw_1200.png?h=3387386095e792ad8e4f316b8d0af646" sizes="96px" srcset="https://pro2-bar-s3-cdn-cf5.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/6940671e-e618-47f3-935a-92d144e67031_rw_600.png?h=6b559da2f4a6c831c4f76a35d658a956 600w,https://pro2-bar-s3-cdn-cf5.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/6940671e-e618-47f3-935a-92d144e67031_rw_1200.png?h=3387386095e792ad8e4f316b8d0af646 1080w,">
+                  <span class="grid__item-filler" style="padding-bottom:202.77777777778%;"></span>
+                </div>
+                <div class="grid__item-container js-grid-item-container lightbox-link hoverable" data-flex-grow="128.21917808219" style="width: 83.8356px; flex-grow: 83.8356;" data-width="1080" data-height="2190">
+                  <script type="text/html" class="js-lightbox-slide-content">
+                    <div class="grid__image-wrapper">
+                      <img src="https://pro2-bar-s3-cdn-cf4.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/527db634-4dca-4d42-9d6e-26f544c82f10_rw_1200.png?h=91b29b53e38c18340d48d9f24f45ac60" srcset="https://pro2-bar-s3-cdn-cf4.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/527db634-4dca-4d42-9d6e-26f544c82f10_rw_600.png?h=a1b3b58e69286b5be8b52e833ff34215 600w,https://pro2-bar-s3-cdn-cf4.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/527db634-4dca-4d42-9d6e-26f544c82f10_rw_1200.png?h=91b29b53e38c18340d48d9f24f45ac60 1080w,"  sizes="(max-width: 1080px) 100vw, 1080px">
+                    <div>
+                  </script>
+                  <img class="grid__item-image js-grid__item-image grid__item-image-lazy js-lazy image-loaded" src="https://pro2-bar-s3-cdn-cf4.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/527db634-4dca-4d42-9d6e-26f544c82f10_rw_1200.png?h=91b29b53e38c18340d48d9f24f45ac60" sizes="96px" srcset="https://pro2-bar-s3-cdn-cf4.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/527db634-4dca-4d42-9d6e-26f544c82f10_rw_600.png?h=a1b3b58e69286b5be8b52e833ff34215 600w,https://pro2-bar-s3-cdn-cf4.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/527db634-4dca-4d42-9d6e-26f544c82f10_rw_1200.png?h=91b29b53e38c18340d48d9f24f45ac60 1080w,">
+                  <span class="grid__item-filler" style="padding-bottom:202.77777777778%;"></span>
+                </div>
+                <div class="grid__item-container js-grid-item-container lightbox-link hoverable" data-flex-grow="171.94581280788" style="width: 112.426px; flex-grow: 112.426;" data-width="1074" data-height="1624">
+                  <script type="text/html" class="js-lightbox-slide-content">
+                    <div class="grid__image-wrapper">
+                      <img src="https://pro2-bar-s3-cdn-cf2.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/32bd0f78-ff85-4b81-8b5d-512a65358690_rw_1200.jpg?h=bef036cc8cb61f3e4ca1cdcf635e6f98" srcset="https://pro2-bar-s3-cdn-cf2.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/32bd0f78-ff85-4b81-8b5d-512a65358690_rw_600.jpg?h=01c6930d76cf32ff2c79236a0598304e 600w,https://pro2-bar-s3-cdn-cf2.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/32bd0f78-ff85-4b81-8b5d-512a65358690_rw_1200.jpg?h=bef036cc8cb61f3e4ca1cdcf635e6f98 1074w,"  sizes="(max-width: 1074px) 100vw, 1074px">
+                    <div>
+                  </script>
+                  <img class="grid__item-image js-grid__item-image grid__item-image-lazy js-lazy image-loaded" src="https://pro2-bar-s3-cdn-cf2.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/32bd0f78-ff85-4b81-8b5d-512a65358690_rw_1200.jpg?h=bef036cc8cb61f3e4ca1cdcf635e6f98" sizes="129px" srcset="https://pro2-bar-s3-cdn-cf2.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/32bd0f78-ff85-4b81-8b5d-512a65358690_rw_600.jpg?h=01c6930d76cf32ff2c79236a0598304e 600w,https://pro2-bar-s3-cdn-cf2.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/32bd0f78-ff85-4b81-8b5d-512a65358690_rw_1200.jpg?h=bef036cc8cb61f3e4ca1cdcf635e6f98 1074w,">
+                  <span class="grid__item-filler" style="padding-bottom:151.2104283054%;"></span>
+                </div>
+                <div class="grid__item-container js-grid-item-container lightbox-link hoverable" data-flex-grow="180.99950024988" style="width: 118.346px; flex-grow: 118.346;" data-width="1393" data-height="2001">
+                  <script type="text/html" class="js-lightbox-slide-content">
+                    <div class="grid__image-wrapper">
+                      <img src="https://pro2-bar-s3-cdn-cf1.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/c6beb5b8-2ff6-40ef-a22c-cf3dee4c6caf_rw_1920.jpg?h=5ff1c63ac518510f9d785f1b96c6e625" srcset="https://pro2-bar-s3-cdn-cf1.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/c6beb5b8-2ff6-40ef-a22c-cf3dee4c6caf_rw_600.jpg?h=ee9f2d00120fd8b4a534f0214a9a1cb9 600w,https://pro2-bar-s3-cdn-cf1.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/c6beb5b8-2ff6-40ef-a22c-cf3dee4c6caf_rw_1200.jpg?h=97e71eb3556d8f2c60e40f36c28485f1 1200w,https://pro2-bar-s3-cdn-cf1.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/c6beb5b8-2ff6-40ef-a22c-cf3dee4c6caf_rw_1920.jpg?h=5ff1c63ac518510f9d785f1b96c6e625 1393w,"  sizes="(max-width: 1393px) 100vw, 1393px">
+                    <div>
+                  </script>
+                  <img class="grid__item-image js-grid__item-image grid__item-image-lazy js-lazy image-loaded" src="https://pro2-bar-s3-cdn-cf1.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/c6beb5b8-2ff6-40ef-a22c-cf3dee4c6caf_rw_1920.jpg?h=5ff1c63ac518510f9d785f1b96c6e625" sizes="135px" srcset="https://pro2-bar-s3-cdn-cf1.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/c6beb5b8-2ff6-40ef-a22c-cf3dee4c6caf_rw_600.jpg?h=ee9f2d00120fd8b4a534f0214a9a1cb9 600w,https://pro2-bar-s3-cdn-cf1.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/c6beb5b8-2ff6-40ef-a22c-cf3dee4c6caf_rw_1200.jpg?h=97e71eb3556d8f2c60e40f36c28485f1 1200w,https://pro2-bar-s3-cdn-cf1.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/c6beb5b8-2ff6-40ef-a22c-cf3dee4c6caf_rw_1920.jpg?h=5ff1c63ac518510f9d785f1b96c6e625 1393w,">
+                  <span class="grid__item-filler" style="padding-bottom:143.64680545585%;"></span>
+                </div>
+                <div class="grid__item-container js-grid-item-container lightbox-link hoverable" data-flex-grow="246.41791044776" style="width: 161.119px; flex-grow: 161.119;" data-width="1016" data-height="1072">
+                  <script type="text/html" class="js-lightbox-slide-content">
+                    <div class="grid__image-wrapper">
+                      <img src="https://pro2-bar-s3-cdn-cf1.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/2d32df3c-bced-4f93-a4b2-1870f4faaf9c_rw_1200.jpeg?h=84761f05120ee98c67434c220b407adf" srcset="https://pro2-bar-s3-cdn-cf1.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/2d32df3c-bced-4f93-a4b2-1870f4faaf9c_rw_600.jpeg?h=bf978d4c6649e343a4dcb20461a848d3 600w,https://pro2-bar-s3-cdn-cf1.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/2d32df3c-bced-4f93-a4b2-1870f4faaf9c_rw_1200.jpeg?h=84761f05120ee98c67434c220b407adf 1016w,"  sizes="(max-width: 1016px) 100vw, 1016px">
+                    <div>
+                  </script>
+                  <img class="grid__item-image js-grid__item-image grid__item-image-lazy js-lazy image-loaded" src="https://pro2-bar-s3-cdn-cf1.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/2d32df3c-bced-4f93-a4b2-1870f4faaf9c_rw_1200.jpeg?h=84761f05120ee98c67434c220b407adf" sizes="183px" srcset="https://pro2-bar-s3-cdn-cf1.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/2d32df3c-bced-4f93-a4b2-1870f4faaf9c_rw_600.jpeg?h=bf978d4c6649e343a4dcb20461a848d3 600w,https://pro2-bar-s3-cdn-cf1.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/2d32df3c-bced-4f93-a4b2-1870f4faaf9c_rw_1200.jpeg?h=84761f05120ee98c67434c220b407adf 1016w,">
+                  <span class="grid__item-filler" style="padding-bottom:105.51181102362%;"></span>
+                </div>
+                <div class="grid__item-container js-grid-item-container lightbox-link hoverable" data-flex-grow="330.19169329073" style="width: 215.895px; flex-grow: 215.895;" data-width="795" data-height="626">
+                  <script type="text/html" class="js-lightbox-slide-content">
+                    <div class="grid__image-wrapper">
+                      <img src="https://pro2-bar-s3-cdn-cf6.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/07d682c9-e305-4c08-a181-06a56157867f_rw_1200.jpg?h=f44491b92cc06fa7c00dec0767570707" srcset="https://pro2-bar-s3-cdn-cf6.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/07d682c9-e305-4c08-a181-06a56157867f_rw_600.jpg?h=37c485f3ed963746d523993c8a4c3736 600w,https://pro2-bar-s3-cdn-cf6.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/07d682c9-e305-4c08-a181-06a56157867f_rw_1200.jpg?h=f44491b92cc06fa7c00dec0767570707 795w,"  sizes="(max-width: 795px) 100vw, 795px">
+                    <div>
+                  </script>
+                  <img class="grid__item-image js-grid__item-image grid__item-image-lazy js-lazy image-loaded" src="https://pro2-bar-s3-cdn-cf6.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/07d682c9-e305-4c08-a181-06a56157867f_rw_1200.jpg?h=f44491b92cc06fa7c00dec0767570707" sizes="245px" srcset="https://pro2-bar-s3-cdn-cf6.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/07d682c9-e305-4c08-a181-06a56157867f_rw_600.jpg?h=37c485f3ed963746d523993c8a4c3736 600w,https://pro2-bar-s3-cdn-cf6.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/07d682c9-e305-4c08-a181-06a56157867f_rw_1200.jpg?h=f44491b92cc06fa7c00dec0767570707 795w,">
+                  <span class="grid__item-filler" style="padding-bottom:78.74213836478%;"></span>
+                </div>
+                <div class="grid__item-container js-grid-item-container lightbox-link hoverable" data-flex-grow="346.66666666667" style="width: 226.667px; flex-grow: 226.667;" data-width="1920" data-height="1440">
+                  <script type="text/html" class="js-lightbox-slide-content">
+                    <div class="grid__image-wrapper">
+                      <img src="https://pro2-bar-s3-cdn-cf3.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/ec278c3b-6688-4a5e-a22b-f5b82f91c0bc_rw_1920.png?h=525dd172f776c9b987bf077f7552e48c" srcset="https://pro2-bar-s3-cdn-cf3.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/ec278c3b-6688-4a5e-a22b-f5b82f91c0bc_rw_600.png?h=d8bf7045236b6884832e6c1d92bb44a6 600w,https://pro2-bar-s3-cdn-cf3.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/ec278c3b-6688-4a5e-a22b-f5b82f91c0bc_rw_1200.png?h=eddb451d3eda29f738d73c52f7d4c7d7 1200w,https://pro2-bar-s3-cdn-cf3.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/ec278c3b-6688-4a5e-a22b-f5b82f91c0bc_rw_1920.png?h=525dd172f776c9b987bf077f7552e48c 1920w,"  sizes="(max-width: 1920px) 100vw, 1920px">
+                    <div>
+                  </script>
+                  <img class="grid__item-image js-grid__item-image grid__item-image-lazy js-lazy image-loaded" src="https://pro2-bar-s3-cdn-cf3.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/ec278c3b-6688-4a5e-a22b-f5b82f91c0bc_rw_1920.png?h=525dd172f776c9b987bf077f7552e48c" sizes="257px" srcset="https://pro2-bar-s3-cdn-cf3.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/ec278c3b-6688-4a5e-a22b-f5b82f91c0bc_rw_600.png?h=d8bf7045236b6884832e6c1d92bb44a6 600w,https://pro2-bar-s3-cdn-cf3.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/ec278c3b-6688-4a5e-a22b-f5b82f91c0bc_rw_1200.png?h=eddb451d3eda29f738d73c52f7d4c7d7 1200w,https://pro2-bar-s3-cdn-cf3.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/ec278c3b-6688-4a5e-a22b-f5b82f91c0bc_rw_1920.png?h=525dd172f776c9b987bf077f7552e48c 1920w,">
+                  <span class="grid__item-filler" style="padding-bottom:75%;"></span>
+                </div>
+                <div class="grid__item-container js-grid-item-container lightbox-link hoverable" data-flex-grow="346.66666666667" style="width: 226.667px; flex-grow: 226.667;" data-width="1920" data-height="1440">
+                  <script type="text/html" class="js-lightbox-slide-content">
+                    <div class="grid__image-wrapper">
+                      <img src="https://pro2-bar-s3-cdn-cf6.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/0f37a2b8-a4a3-4afb-a7c3-ee6ba50543e0_rw_1920.png?h=fa4d57bc42c2c493a5e8d5a1f04c843b" srcset="https://pro2-bar-s3-cdn-cf6.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/0f37a2b8-a4a3-4afb-a7c3-ee6ba50543e0_rw_600.png?h=d0ed45ca5fde69a00f8b461e87a4c1f5 600w,https://pro2-bar-s3-cdn-cf6.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/0f37a2b8-a4a3-4afb-a7c3-ee6ba50543e0_rw_1200.png?h=36980518a1262293c85508b7f16c253a 1200w,https://pro2-bar-s3-cdn-cf6.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/0f37a2b8-a4a3-4afb-a7c3-ee6ba50543e0_rw_1920.png?h=fa4d57bc42c2c493a5e8d5a1f04c843b 1920w,"  sizes="(max-width: 1920px) 100vw, 1920px">
+                    <div>
+                  </script>
+                  <img class="grid__item-image js-grid__item-image grid__item-image-lazy js-lazy image-loaded" src="https://pro2-bar-s3-cdn-cf6.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/0f37a2b8-a4a3-4afb-a7c3-ee6ba50543e0_rw_1920.png?h=fa4d57bc42c2c493a5e8d5a1f04c843b" sizes="257px" srcset="https://pro2-bar-s3-cdn-cf6.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/0f37a2b8-a4a3-4afb-a7c3-ee6ba50543e0_rw_600.png?h=d0ed45ca5fde69a00f8b461e87a4c1f5 600w,https://pro2-bar-s3-cdn-cf6.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/0f37a2b8-a4a3-4afb-a7c3-ee6ba50543e0_rw_1200.png?h=36980518a1262293c85508b7f16c253a 1200w,https://pro2-bar-s3-cdn-cf6.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/0f37a2b8-a4a3-4afb-a7c3-ee6ba50543e0_rw_1920.png?h=fa4d57bc42c2c493a5e8d5a1f04c843b 1920w,">
+                  <span class="grid__item-filler" style="padding-bottom:75%;"></span>
+                </div>
+                <div class="grid__item-container js-grid-item-container lightbox-link hoverable" data-flex-grow="313.35684062059" style="width: 204.887px; flex-grow: 204.887;" data-width="1709" data-height="1418">
+                  <script type="text/html" class="js-lightbox-slide-content">
+                    <div class="grid__image-wrapper">
+                      <img src="https://pro2-bar-s3-cdn-cf6.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/0f8ab353-5780-496e-ba5f-768ac10abc0b_rw_1920.jpg?h=182bf33799e87433ee3dbbe624722923" srcset="https://pro2-bar-s3-cdn-cf6.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/0f8ab353-5780-496e-ba5f-768ac10abc0b_rw_600.jpg?h=4a3c9c65ffd5e222d40bb623e3856a2c 600w,https://pro2-bar-s3-cdn-cf6.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/0f8ab353-5780-496e-ba5f-768ac10abc0b_rw_1200.jpg?h=c300f850d1e58e3c9d64f579116ecabe 1200w,https://pro2-bar-s3-cdn-cf6.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/0f8ab353-5780-496e-ba5f-768ac10abc0b_rw_1920.jpg?h=182bf33799e87433ee3dbbe624722923 1709w,"  sizes="(max-width: 1709px) 100vw, 1709px">
+                    <div>
+                  </script>
+                  <img class="grid__item-image js-grid__item-image grid__item-image-lazy js-lazy image-loaded" src="https://pro2-bar-s3-cdn-cf6.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/0f8ab353-5780-496e-ba5f-768ac10abc0b_rw_1920.jpg?h=182bf33799e87433ee3dbbe624722923" sizes="302px" srcset="https://pro2-bar-s3-cdn-cf6.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/0f8ab353-5780-496e-ba5f-768ac10abc0b_rw_600.jpg?h=4a3c9c65ffd5e222d40bb623e3856a2c 600w,https://pro2-bar-s3-cdn-cf6.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/0f8ab353-5780-496e-ba5f-768ac10abc0b_rw_1200.jpg?h=c300f850d1e58e3c9d64f579116ecabe 1200w,https://pro2-bar-s3-cdn-cf6.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/0f8ab353-5780-496e-ba5f-768ac10abc0b_rw_1920.jpg?h=182bf33799e87433ee3dbbe624722923 1709w,">
+                  <span class="grid__item-filler" style="padding-bottom:82.972498537156%;"></span>
+                </div>
+                <div class="grid__item-container js-grid-item-container lightbox-link hoverable" data-flex-grow="339.62742175857" style="width: 222.064px; flex-grow: 222.064;" data-width="1753" data-height="1342">
+                  <script type="text/html" class="js-lightbox-slide-content">
+                    <div class="grid__image-wrapper">
+                      <img src="https://pro2-bar-s3-cdn-cf1.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/2eb80bcf-e31b-42dd-b436-8d525dde1da6_rw_1920.jpg?h=601bdcbf688788d091ab468cc86337a2" srcset="https://pro2-bar-s3-cdn-cf1.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/2eb80bcf-e31b-42dd-b436-8d525dde1da6_rw_600.jpg?h=94968b7604673996759e446f86f1776f 600w,https://pro2-bar-s3-cdn-cf1.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/2eb80bcf-e31b-42dd-b436-8d525dde1da6_rw_1200.jpg?h=8a95b17abcb97aa1a63ca4d561be96df 1200w,https://pro2-bar-s3-cdn-cf1.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/2eb80bcf-e31b-42dd-b436-8d525dde1da6_rw_1920.jpg?h=601bdcbf688788d091ab468cc86337a2 1753w,"  sizes="(max-width: 1753px) 100vw, 1753px">
+                    <div>
+                  </script>
+                  <img class="grid__item-image js-grid__item-image grid__item-image-lazy js-lazy image-loaded" src="https://pro2-bar-s3-cdn-cf1.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/2eb80bcf-e31b-42dd-b436-8d525dde1da6_rw_1920.jpg?h=601bdcbf688788d091ab468cc86337a2" sizes="328px" srcset="https://pro2-bar-s3-cdn-cf1.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/2eb80bcf-e31b-42dd-b436-8d525dde1da6_rw_600.jpg?h=94968b7604673996759e446f86f1776f 600w,https://pro2-bar-s3-cdn-cf1.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/2eb80bcf-e31b-42dd-b436-8d525dde1da6_rw_1200.jpg?h=8a95b17abcb97aa1a63ca4d561be96df 1200w,https://pro2-bar-s3-cdn-cf1.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/2eb80bcf-e31b-42dd-b436-8d525dde1da6_rw_1920.jpg?h=601bdcbf688788d091ab468cc86337a2 1753w,">
+                  <span class="grid__item-filler" style="padding-bottom:76.55447803765%;"></span>
+                </div>
+                <div class="grid__item-container js-grid-item-container lightbox-link hoverable" data-flex-grow="332.23468507334" style="width: 217.23px; flex-grow: 217.23;" data-width="1481" data-height="1159">
+                  <script type="text/html" class="js-lightbox-slide-content">
+                    <div class="grid__image-wrapper">
+                      <img src="https://pro2-bar-s3-cdn-cf.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/16f6d676-ae8b-457c-95bf-7c07bdeea448_rw_1920.jpg?h=30451b91cc305f295cb130910aefa3f9" srcset="https://pro2-bar-s3-cdn-cf.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/16f6d676-ae8b-457c-95bf-7c07bdeea448_rw_600.jpg?h=4d23c8ce52202f2ad80227dbd4490c21 600w,https://pro2-bar-s3-cdn-cf.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/16f6d676-ae8b-457c-95bf-7c07bdeea448_rw_1200.jpg?h=437cbf5654a4b3d1609588a22d04adde 1200w,https://pro2-bar-s3-cdn-cf.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/16f6d676-ae8b-457c-95bf-7c07bdeea448_rw_1920.jpg?h=30451b91cc305f295cb130910aefa3f9 1481w,"  sizes="(max-width: 1481px) 100vw, 1481px">
+                    <div>
+                  </script>
+                  <img class="grid__item-image js-grid__item-image grid__item-image-lazy js-lazy image-loaded" src="https://pro2-bar-s3-cdn-cf.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/16f6d676-ae8b-457c-95bf-7c07bdeea448_rw_1920.jpg?h=30451b91cc305f295cb130910aefa3f9" sizes="320px" srcset="https://pro2-bar-s3-cdn-cf.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/16f6d676-ae8b-457c-95bf-7c07bdeea448_rw_600.jpg?h=4d23c8ce52202f2ad80227dbd4490c21 600w,https://pro2-bar-s3-cdn-cf.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/16f6d676-ae8b-457c-95bf-7c07bdeea448_rw_1200.jpg?h=437cbf5654a4b3d1609588a22d04adde 1200w,https://pro2-bar-s3-cdn-cf.myportfolio.com/760133b8-23be-4309-a942-748f8b469879/16f6d676-ae8b-457c-95bf-7c07bdeea448_rw_1920.jpg?h=30451b91cc305f295cb130910aefa3f9 1481w,">
+                  <span class="grid__item-filler" style="padding-bottom:78.257933828494%;"></span>
+                </div>
+                <div class="js-grid-spacer" style="display: none;"></div>
+              </div>
+            </div>
+            
+                          
+                          
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                    <section class="back-to-top" data-hover-hint="backToTop">
+                      <a href="#"><span class="arrow">↑</span><span class="preserve-whitespace">Volver arriba</span></a>
+                    </section>
+                    <a class="back-to-top-fixed js-back-to-top back-to-top-fixed-with-panel" data-hover-hint="backToTop" data-hover-hint-placement="top-start" href="#">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 26 26" style="enable-background:new 0 0 26 26;" xml:space="preserve" class="icon icon-back-to-top">
+                      <g>
+                        <path d="M13.8,1.3L21.6,9c0.1,0.1,0.1,0.3,0.2,0.4c0.1,0.1,0.1,0.3,0.1,0.4s0,0.3-0.1,0.4c-0.1,0.1-0.1,0.3-0.3,0.4
+                          c-0.1,0.1-0.2,0.2-0.4,0.3c-0.2,0.1-0.3,0.1-0.4,0.1c-0.1,0-0.3,0-0.4-0.1c-0.2-0.1-0.3-0.2-0.4-0.3L14.2,5l0,19.1
+                          c0,0.2-0.1,0.3-0.1,0.5c0,0.1-0.1,0.3-0.3,0.4c-0.1,0.1-0.2,0.2-0.4,0.3c-0.1,0.1-0.3,0.1-0.5,0.1c-0.1,0-0.3,0-0.4-0.1
+                          c-0.1-0.1-0.3-0.1-0.4-0.3c-0.1-0.1-0.2-0.2-0.3-0.4c-0.1-0.1-0.1-0.3-0.1-0.5l0-19.1l-5.7,5.7C6,10.8,5.8,10.9,5.7,11
+                          c-0.1,0.1-0.3,0.1-0.4,0.1c-0.2,0-0.3,0-0.4-0.1c-0.1-0.1-0.3-0.2-0.4-0.3c-0.1-0.1-0.1-0.2-0.2-0.4C4.1,10.2,4,10.1,4.1,9.9
+                          c0-0.1,0-0.3,0.1-0.4c0-0.1,0.1-0.3,0.3-0.4l7.7-7.8c0.1,0,0.2-0.1,0.2-0.1c0,0,0.1-0.1,0.2-0.1c0.1,0,0.2,0,0.2-0.1
+                          c0.1,0,0.1,0,0.2,0c0,0,0.1,0,0.2,0c0.1,0,0.2,0,0.2,0.1c0.1,0,0.1,0.1,0.2,0.1C13.7,1.2,13.8,1.2,13.8,1.3z"></path>
+                      </g>
+                      </svg>
+                    </a>
+              </div>
+              
+                            
+                            
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                      <section class="back-to-top" data-hover-hint="backToTop">
+                        <a href="#"><span class="arrow">↑</span><span class="preserve-whitespace">Volver arriba</span></a>
+                      </section>
+                      <a class="back-to-top-fixed js-back-to-top back-to-top-fixed-with-panel" data-hover-hint="backToTop" data-hover-hint-placement="top-start" href="#">
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 26 26" style="enable-background:new 0 0 26 26;" xml:space="preserve" class="icon icon-back-to-top">
+                        <g>
+                          <path d="M13.8,1.3L21.6,9c0.1,0.1,0.1,0.3,0.2,0.4c0.1,0.1,0.1,0.3,0.1,0.4s0,0.3-0.1,0.4c-0.1,0.1-0.1,0.3-0.3,0.4
+                            c-0.1,0.1-0.2,0.2-0.4,0.3c-0.2,0.1-0.3,0.1-0.4,0.1c-0.1,0-0.3,0-0.4-0.1c-0.2-0.1-0.3-0.2-0.4-0.3L14.2,5l0,19.1
+                            c0,0.2-0.1,0.3-0.1,0.5c0,0.1-0.1,0.3-0.3,0.4c-0.1,0.1-0.2,0.2-0.4,0.3c-0.1,0.1-0.3,0.1-0.5,0.1c-0.1,0-0.3,0-0.4-0.1
+                            c-0.1-0.1-0.3-0.1-0.4-0.3c-0.1-0.1-0.2-0.2-0.3-0.4c-0.1-0.1-0.1-0.3-0.1-0.5l0-19.1l-5.7,5.7C6,10.8,5.8,10.9,5.7,11
+                            c-0.1,0.1-0.3,0.1-0.4,0.1c-0.2,0-0.3,0-0.4-0.1c-0.1-0.1-0.3-0.2-0.4-0.3c-0.1-0.1-0.1-0.2-0.2-0.4C4.1,10.2,4,10.1,4.1,9.9
+                            c0-0.1,0-0.3,0.1-0.4c0-0.1,0.1-0.3,0.3-0.4l7.7-7.8c0.1,0,0.2-0.1,0.2-0.1c0,0,0.1-0.1,0.2-0.1c0.1,0,0.2,0,0.2-0.1
+                            c0.1,0,0.1,0,0.2,0c0,0,0.1,0,0.2,0c0.1,0,0.2,0,0.2,0.1c0.1,0,0.1,0.1,0.2,0.1C13.7,1.2,13.8,1.2,13.8,1.3z"></path>
+                        </g>
+                        </svg>
+                      </a>
+                </div>
+                            <footer class="site-footer" data-hover-hint="footer">
+                              <div class="footer-text">
+                                PAULA BERNAL
+                              </div>
+                            </footer>
+                      </main>
+                    </div>
+                  </div>
+                </div>
+              <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","licenseKey":"e7fb1b89a0","applicationID":"750147145","transactionName":"ZwZaYkJVDERXUxULCV5Me0NDQA1aGWsmJzJtQxdtS0QDQ14KT0gbbQ==","queueTime":0,"applicationTime":14,"atts":"S0FNFApPHxsUUUNYHU0e","errorBeacon":"bam-cell.nr-data.net","agent":""}</script>
+              <script type="text/javascript">
+                // fix for Safari's back/forward cache
+                window.onpageshow = function(e) {
+                  if (e.persisted) { window.location.reload(); }
+                };
+              </script>
+                <script type="text/javascript">var __config__ = {"page_id":"p614b525930b7f494ddc1db7d8905317335640ac034ba64febf2e3","theme":{"name":"geometric"},"pageTransition":true,"linkTransition":true,"disableDownload":false,"localizedValidationMessages":{"required":"This field is required","Email":"This field must be a valid email address"},"lightbox":{"enabled":true,"color":{"opacity":0.94,"hex":"#fff"}},"cookie_banner":{"enabled":false}};</script>
+                <script type="text/javascript" src="/site/translations?cb="></script>
+                <script type="text/javascript" src="/dist/js/main.js?cb="></script><div class="js-lightbox-wrap offscreen" id="lightbox-wrap">
+                  
+            
+            
+                
+                
+          
+  </body></html>

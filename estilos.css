@@ -1,0 +1,93 @@
+
+    background-position
+    background-repeat no-repeat
+    background-size
+{
+    background-color: rgb(161, 60, 207);
+    display: none;
+    opacity: calc(30 * 0.01);
+    }
+    
+    html {
+        position: relative;
+    }
+    html {
+        background-image: url(C:\DOCUMENTOSPAULA\TALLERDEMULTIMEDIA2\Portafolioweb\fondo.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    html, body {
+        min-height: 100%;
+    }
+    html {
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+    }
+    html {
+        font-family: sans-serif;
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+    }
+    * {
+        box-sizing: border-box;
+    }
+    
+    
+    user agent stylesheet
+    html {
+        display: block;
+    }
+    html:before {
+        content: '';
+        height: 100%;
+        left: 0;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    html:before {
+        background-color: #000;
+        display: none;
+        opacity: calc(30 * 0.01);
+    }
+   
+    * {
+        box-sizing: border-box;
+    }
+    user agent stylesheet
+    head {
+        display: none;
+    }
+    html {
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+    }
+    html {
+        font-family: sans-serif;
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+    }html, body {
+        min-height: 100%;
+    }
+    body {
+        margin: 0;
+    }
+    * {
+        box-sizing: border-box;
+    }
+    user agent stylesheet
+    body {
+        display: block;
+        margin: 8px;
+    }
+    html {
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+    }
+    html {
+        font-family: sans-serif;
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+    }
+     
